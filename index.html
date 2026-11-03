@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="zh-Hant" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>魚小二重慶烤魚串燒酒場 高雄旗艦店</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700;900&family=Noto+Serif+TC:wght@600;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans TC', sans-serif;
+            background-color: #0f1115;
+            color: #f3f4f6;
+        }
+        h1, h2, h3 {
+            font-family: 'Noto Serif TC', 'Noto Sans TC', sans-serif;
+            letter-spacing: 0.05em;
+        }
+    </style>
+</head>
+<body class="bg-[#0f1115] text-gray-100 antialiased selection:bg-orange-500 selection:text-white">
+
+    <!-- 導覽列 (Navbar) -->
+    <header class="sticky top-0 z-50 bg-[#0f1115]/90 backdrop-blur-md border-b border-gray-800">
+        <div class="max-w-6xl mx-auto px-4 h-20 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <a href="#" class="flex items-center">
+                    <img src="魚小二.png" alt="魚小二重慶烤魚串燒酒場" class="h-12 md:h-14 w-auto object-contain" onerror="this.onerror=null; this.src='store.jpg';">
+                </a>
+            </div>
+            <nav class="hidden md:flex items-center space-x-8 text-sm font-medium text-gray-300">
+                <a href="#about" class="hover:text-orange-400 transition">品牌特色</a>
+                <a href="#menu" class="hover:text-orange-400 transition">精選料理</a>
+                <a href="#info" class="hover:text-orange-400 transition">營業資訊</a>
+            </nav>
+            <div class="flex items-center space-x-3">
+                <!-- 低調質感 IG 按鈕 -->
+                <a href="https://www.instagram.com/fishwaiterkh/" target="_blank" rel="noopener noreferrer"
+                   class="bg-gray-800/80 hover:bg-gray-700 text-gray-300 hover:text-white border border-gray-700 font-medium px-3.5 py-2 rounded-xl transition flex items-center space-x-1.5 text-sm">
+                    <span class="text-xs">📸</span>
+                    <span>IG</span>
+                </a>
+                <!-- 預約專線按鈕 -->
+                <a href="tel:072415116" 
+                   class="bg-gray-800 hover:bg-gray-700 text-gray-200 border border-gray-700 font-medium px-4 py-2 rounded-xl transition flex items-center space-x-2 text-sm">
+                    <span>📞</span>
+                    <span>預約專線</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- 主視覺區 (Hero Section) -->
+    <section class="relative min-h-[85vh] flex items-center justify-center bg-cover bg-center px-4" style="background-image: linear-gradient(to bottom, rgba(15, 17, 21, 0.6), rgba(15, 17, 21, 0.95)), url('store.jpg');">
+        <div class="max-w-4xl mx-auto text-center space-y-6 z-10 py-16">
+            <div class="inline-flex items-center space-x-2 bg-orange-500/10 border border-orange-500/30 px-4 py-1.5 rounded-full text-orange-400 text-sm font-medium">
+                <span>🔥 高雄必吃炭火串燒・重慶烤魚酒場</span>
+            </div>
+            <h1 class="text-4xl md:text-6xl font-black tracking-tight text-white leading-tight">
+                麻辣鮮香，微醺聚會首選
+            </h1>
+            <p class="text-lg md:text-xl text-gray-300 max-w-2xl mx-auto font-light">
+                嚴選道地重慶香料與新鮮現烤炭火串燒，搭配精選酒水，給您最過癮的深夜酒場體驗。
+            </p>
+            <div class="pt-4 flex flex-col sm:flex-row justify-center items-center gap-4">
+                <a href="https://inline.app/booking/-N59U474dRvvJyhU4GdM:inline-live-2/-NSdxb5bfXix000Wdn5H" target="_blank" rel="noopener noreferrer"
+                   class="w-full sm:w-auto bg-orange-600 hover:bg-orange-500 text-white font-bold px-8 py-4 rounded-xl shadow-xl shadow-orange-600/30 transition transform hover:-translate-y-1 text-center text-lg">
+                    前往 Inline 線上訂位
+                </a>
+                <a href="#menu" class="w-full sm:w-auto bg-gray-800/80 hover:bg-gray-800 text-gray-200 font-medium px-8 py-4 rounded-xl border border-gray-700 transition transform hover:-translate-y-1 text-center text-lg">
+                    查看精選菜單
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 品牌特色 (Features) -->
+    <section id="about" class="py-20 bg-[#12151a] border-t border-gray-800/50 scroll-mt-20">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center max-w-2xl mx-auto mb-16 space-y-3">
+                <h2 class="text-3xl md:text-4xl font-black text-white">匠心獨具的美味堅持</h2>
+                <p class="text-gray-400">三大核心特色，滿足您對美食與聚會的所有期待</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- 特色 1 -->
+                <div class="bg-[#181b22] p-8 rounded-2xl border border-gray-800 hover:border-orange-500/50 transition group">
+                    <div class="w-14 h-14 bg-orange-500/10 border border-orange-500/20 rounded-2xl flex items-center justify-center text-orange-400 mb-6 group-hover:scale-110 group-hover:bg-orange-500 group-hover:text-white transition duration-300">
+                        <svg class="w-7 h-7" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">炭火現烤・外酥內嫩</h3>
+                    <p class="text-gray-400 leading-relaxed text-sm">堅持嚴選新鮮食材，透過精準炭火現點現烤，鎖住豐富肉汁與迷人香氣。</p>
+                </div>
+                <!-- 特色 2 -->
+                <div class="bg-[#181b22] p-8 rounded-2xl border border-gray-800 hover:border-orange-500/50 transition group">
+                    <div class="w-14 h-14 bg-orange-500/10 border border-orange-500/20 rounded-2xl flex items-center justify-center text-orange-400 mb-6 group-hover:scale-110 group-hover:bg-orange-500 group-hover:text-white transition duration-300">
+                        <svg class="w-7 h-7" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">道地川味・重慶烤魚</h3>
+                    <p class="text-gray-400 leading-relaxed text-sm">獨家配方熬煮麻辣湯底，魚肉鮮嫩入味、香氣濃郁，每一口都是層次豐富的味蕾享受。</p>
+                </div>
+                <!-- 特色 3 -->
+                <div class="bg-[#181b22] p-8 rounded-2xl border border-gray-800 hover:border-orange-500/50 transition group">
+                    <div class="w-14 h-14 bg-orange-500/10 border border-orange-500/20 rounded-2xl flex items-center justify-center text-orange-400 mb-6 group-hover:scale-110 group-hover:bg-orange-500 group-hover:text-white transition duration-300">
+                        <svg class="w-7 h-7" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M21 15.546c-.523 0-1.046.151-1.5.454a2.704 2.704 0 01-3 0 2.7 2.7 0 00-3 0 2.704 2.704 0 01-3 0 2.7 2.7 0 00-3 0 2.701 2.701 0 00-1.5-.454M9 6v2m3-2v2m3-2v2M9 3h6m-7 18h8a2 2 0 002-2V9a2 2 0 00-2-2H8a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">舒適包廂・微醺酒場</h3>
+                    <p class="text-gray-400 leading-relaxed text-sm">寬敞舒適的用餐與包廂空間，搭配精選酒水與串燒，是朋友聚會、放鬆慶祝的最佳去處。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 人氣招牌菜單 (Menu Preview) -->
+    <section id="menu" class="py-20 bg-[#0f1115] scroll-mt-20">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center max-w-2xl mx-auto mb-16 space-y-3">
+                <h2 class="text-3xl md:text-4xl font-black text-white">人氣招牌菜單</h2>
+                <p class="text-gray-400">點擊圖片可直接放大檢視完整菜單內容</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- 菜單 1 -->
+                <div class="bg-[#181b22] rounded-2xl overflow-hidden border border-gray-800 group">
+                    <a href="menu1.jpg" target="_blank" class="block h-72 bg-black/40 overflow-hidden relative">
+                        <img src="menu1.jpg" alt="經典重慶烤魚系列菜單" class="w-full h-full object-contain group-hover:scale-105 transition duration-500" onerror="this.onerror=null; this.src='store.jpg';">
+                        <div class="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition flex items-center justify-center text-white font-bold text-sm bg-black/40 backdrop-blur-xs">
+                            🔍 點擊檢視完整大圖
+                        </div>
+                    </a>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-white mb-2">經典重慶烤魚系列</h3>
+                        <p class="text-gray-400 text-sm">多種道地口味與豐富配料可選，現點現做，香氣撲鼻。</p>
+                    </div>
+                </div>
+                <!-- 菜單 2 -->
+                <div class="bg-[#181b22] rounded-2xl overflow-hidden border border-gray-800 group">
+                    <a href="menu2.jpg" target="_blank" class="block h-72 bg-black/40 overflow-hidden relative">
+                        <img src="menu2.jpg" alt="炭火串燒與私房下酒菜菜單" class="w-full h-full object-contain group-hover:scale-105 transition duration-500" onerror="this.onerror=null; this.src='store.jpg';">
+                        <div class="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition flex items-center justify-center text-white font-bold text-sm bg-black/40 backdrop-blur-xs">
+                            🔍 點擊檢視完整大圖
+                        </div>
+                    </a>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-white mb-2">炭火串燒與私房下酒菜</h3>
+                        <p class="text-gray-400 text-sm">深夜暢飲的最佳良伴，串串入味、層次分明。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 營業與訂位資訊 (Info & Map) -->
+    <section id="info" class="py-20 bg-[#12151a] border-t border-gray-800/50 scroll-mt-20">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <div class="space-y-6">
+                    <h2 class="text-3xl font-black text-white">營業與訂位資訊</h2>
+                    <div class="space-y-4 text-gray-300 text-sm md:text-base">
+                        <p class="flex items-start space-x-3">
+                            <span class="text-orange-500 text-xl font-bold">📍</span>
+                            <span><strong>地址：</strong>801007 高雄市前金區自強三路275號</span>
+                        </p>
+                        <p class="flex items-start space-x-3">
+                            <span class="text-orange-500 text-xl font-bold">📞</span>
+                            <span><strong>電話：</strong>07-2415116</span>
+                        </p>
+                        <p class="flex items-start space-x-3">
+                            <span class="text-orange-500 text-xl font-bold">⏰</span>
+                            <span><strong>營業時間：</strong>17:30~01:45</span>
+                        </p>
+                        <p class="flex items-start space-x-3">
+                            <span class="text-orange-500 text-xl font-bold">📸</span>
+                            <span><strong>Instagram：</strong><a href="https://www.instagram.com/fishwaiterkh/" target="_blank" rel="noopener noreferrer" class="text-orange-400 hover:underline">@fishwaiterkh</a></span>
+                        </p>
+                    </div>
+                    <div class="pt-4">
+                        <a href="https://inline.app/booking/-N59U474dRvvJyhU4GdM:inline-live-2/-NSdxb5bfXix000Wdn5H" target="_blank" rel="noopener noreferrer"
+                           class="inline-block bg-orange-600 hover:bg-orange-500 text-white font-bold px-8 py-3.5 rounded-xl shadow-lg transition transform hover:-translate-y-1">
+                            進入 Inline 線上預約
+                        </a>
+                    </div>
+                </div>
+                <!-- 右側地圖 -->
+                <a href="https://maps.google.com/?q=高雄市前金區自強三路275號" target="_blank" rel="noopener noreferrer" 
+                   class="block rounded-2xl overflow-hidden border border-gray-800 shadow-2xl h-[350px] relative group">
+                    <iframe src="https://maps.google.com/maps?q=高雄市前金區自強三路275號&output=embed" 
+                            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" class="pointer-events-none"></iframe>
+                    <div class="absolute inset-0 bg-orange-600/10 opacity-0 group-hover:opacity-100 transition flex items-center justify-center text-white font-bold bg-black/40 backdrop-blur-xs">
+                        📍 點擊開啟 Google 地圖導航（高雄市前金區自強三路275號）
+                    </div>
+                </a>
+            </div>
+
+            <!-- 貼心用餐提醒卡片（三欄式組件） -->
+            <div class="mt-12 bg-[#181b22] border border-orange-500/20 rounded-2xl p-6 md:p-8 space-y-6">
+                <div class="flex items-center space-x-2 text-orange-400 font-bold text-lg border-b border-gray-800 pb-3">
+                    <span>📢</span>
+                    <span>貼心用餐提醒</span>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-sm text-gray-300">
+                    <!-- 提醒 1 -->
+                    <div class="space-y-1">
+                        <div class="font-bold text-white flex items-center space-x-1.5">
+                            <span>🚗</span>
+                            <span>代駕服務</span>
+                        </div>
+                        <p class="text-gray-400 text-xs leading-relaxed">
+                            用餐結束時，可直接請現場服務人員協助撥打呼叫代駕，門市皆有長期配合的專業車隊。
+                        </p>
+                    </div>
+                    <!-- 提醒 2 -->
+                    <div class="space-y-1">
+                        <div class="font-bold text-white flex items-center space-x-1.5">
+                            <span>🅿️</span>
+                            <span>停車注意</span>
+                        </div>
+                        <p class="text-gray-400 text-xs leading-relaxed">
+                            假日附近車位較為難尋，建議您提早出門，以免影響精彩的聚會時光。
+                        </p>
+                    </div>
+                    <!-- 提醒 3 -->
+                    <div class="space-y-1">
+                        <div class="font-bold text-white flex items-center space-x-1.5">
+                            <span>🔥</span>
+                            <span>現點現做</span>
+                        </div>
+                        <p class="text-gray-400 text-xs leading-relaxed">
+                            本店所有餐點皆為現點現做，為了確保極致美味與高品質，請耐心等候。
+                        </p>
+                    </div>
+                </div>
+
+                <div class="text-gray-500 text-xs text-center md:text-right border-t border-gray-800/60 pt-3">
+                    完整訂位條款與詳細規範，請點擊上方按鈕至 Inline 系統確認
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 頁尾 (Footer) -->
+    <footer class="bg-[#0b0d10] py-8 border-t border-gray-800 text-center text-gray-500 text-sm">
+        <p>© 2026 魚小二重慶烤魚串燒酒場 高雄旗艦店. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
